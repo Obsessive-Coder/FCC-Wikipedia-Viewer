@@ -1,0 +1,56 @@
+body{
+	text-align: center;
+	background-color: #222222;
+	display: flex;
+  align-items: center;
+	min-height: 800px;
+}
+a{
+	font-size: 24pt;
+}
+a:hover{
+	text-decoration: none;
+}
+#search{
+	margin-top: 50px;
+}
+
+span.glyphicon-search{
+	font-size: 15rem;
+}
+
+.form-control{
+	height: 75px;
+	font-size: 48pt;
+}
+
+.close{
+	color: red;
+	font-size: 46pt;
+}
+
+#searchResults{
+	text-align: left;
+	margin-top: 100px;
+}
+
+.result{
+	display: block;
+	border: thin solid darkgray;
+	margin-bottom: 25px;
+	box-shadow: 5px 5px 3px #888;
+	background-color: #fff;
+}
+
+.result:hover{
+	cursor: pointer;
+	box-shadow: 0 0 10px lightgreen;
+}
+
+.result ul{
+	list-style: none;
+}
+
+.result ul li #name{
+	font-weight: bold;
+}
